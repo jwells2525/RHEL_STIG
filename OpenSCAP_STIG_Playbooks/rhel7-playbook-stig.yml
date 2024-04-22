@@ -37,6 +37,7 @@
 
  - name: Ansible Playbook for xccdf_org.ssgproject.content_profile_stig
    hosts: "{{ HOSTS }}"
+   become: yes
    pre_tasks:
      - name: Verify Ansible meets SCAP-Security-Guide version requirements.
        assert:
