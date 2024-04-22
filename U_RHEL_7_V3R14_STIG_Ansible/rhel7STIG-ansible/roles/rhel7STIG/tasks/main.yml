@@ -1456,11 +1456,11 @@
 #  check_mode: no
 #  register: cmd_result
 #  failed_when: cmd_result.rc > 1
-- name: stigrule_204619_postconf__e__smtpd_client_restrictions___permit_mynetworks_reject_
-  shell: "{{ rhel7STIG_stigrule_204619_postconf__e__smtpd_client_restrictions___permit_mynetworks_reject__Command }}"
-  when:
-    - rhel7STIG_stigrule_204619_Manage
-    - cmd_result.rc == 0
+#- name: stigrule_204619_postconf__e__smtpd_client_restrictions___permit_mynetworks_reject_
+#  shell: "{{ rhel7STIG_stigrule_204619_postconf__e__smtpd_client_restrictions___permit_mynetworks_reject__Command }}"
+#  when:
+#    - rhel7STIG_stigrule_204619_Manage
+#    - cmd_result.rc == 0
 # R-204620 RHEL-07-040690
 - name: stigrule_204620_vsftpd
   yum:
