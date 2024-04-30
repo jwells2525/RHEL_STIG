@@ -1,0 +1,6 @@
+---
+- hosts: "{{ HOSTS }}"
+  gather_facts: no
+  become: yes
+  roles:
+    - rhel9STIG
