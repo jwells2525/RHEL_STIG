@@ -9,6 +9,8 @@
 
 #### RHEL 9 STIG from March 11, 2024 (Ver 1 Rel 2)
 
+#### ssg-rhel7-ds-tailoring.xml is a Tailoring File for the Remainder of what the OpenSCAP RHEL 7 STIG Playbook Leaves
+
 ### <ins>XML Benchmark</ins>
 
 #### RHEL 7 STIG from January 22, 2024 (Ver 3 Rel 14)
